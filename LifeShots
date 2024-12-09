@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeShots</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff7eb3, #ff758c, #ff6f61);
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .premium {
+            background: #ffd700;
+            color: #000;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .premium:hover {
+            background: #ffcc00;
+        }
+        .content {
+            padding: 30px;
+        }
+        .photo-feed {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .photo-feed img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LifeShots</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Profilo</a>
+            <a href="#">Esplora</a>
+            <a href="#" class="premium">Passa a Premium</a>
+        </nav>
+    </header>
+    <div class="content">
+        <h2>Condividi la tua vita attraverso le immagini</h2>
+        <p>Esplora foto incredibili, scopri nuovi amici e metti in mostra i momenti più belli della tua vita.</p>
+        <div class="photo-feed">
+            <img src="https://via.placeholder.com/200" alt="Foto 1">
+            <img src="https://via.placeholder.com/200" alt="Foto 2">
+            <img src="https://via.placeholder.com/200" alt="Foto 3">
+            <img src="https://via.placeholder.com/200" alt="Foto 4">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 LifeShots. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
